@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         
         super.onCreate(savedInstanceState);  // Android Doku: "Derived classes must call through to the super class's implementation of this method. If they do not, an exception will be thrown."
         setContentView(R.layout.activity_main);  // zeigt Layout auf dem Display an
-        setTitle(R.string.activity1_title);  // setzt den Titel der Activity (kann alternativ durch ein Attribut in der Manifest-Datei geschehen)
+        //setTitle(R.string.activity1_title);  // setzt den Titel der Activity (kann alternativ durch ein Attribut in der Manifest-Datei geschehen)
         // setTitle("@string/activity1_title");  // alternativ Form des Parameters
 
         final Button switchButton = (Button) findViewById(R.id.switchActivity);

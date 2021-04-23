@@ -11,12 +11,15 @@ package de.thkoeln.cvogt.android.activities;
 // Video dazu: https://youtu.be/Zwswz3UmvOc
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 /* Diese zweite Aktivität muss ggf. per Hand im Manifest eingetragen werden.
@@ -24,15 +27,17 @@ import android.widget.Toast;
    rechts-klickt und dann den Menus "New > Activity > ..." folgt. */
 
 public class SecondActivity extends Activity {
-        
+
+    private String text;
+    private EditText editText;
+
     public void onCreate(Bundle savedInstanceState) {
         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        
-        final Button switchButton = (Button) findViewById(R.id.switchActivity);
 
-        switchButton.setOnClickListener(new SwitchButtonListener2());
+        editText = (EditText) findViewById(R.id.plain_text_input);
+        String text = editText.getText().toString();
 
         Toast.makeText(this,"Activity 2: onCreate()", Toast.LENGTH_LONG).show();
         
@@ -64,16 +69,15 @@ public class SecondActivity extends Activity {
     public void onDestroy() {
         super.onDestroy();
         Log.v("DEMO","      ---> Activity2: onDestroy() <--- ");
-    }       
+    }
+
+
+    public void onSaveInstanceState(Bundle savedInstanceState){
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putString("StringKey",text);
+        Log.v("PRAKTIKUM","---> onSaveInstanceState() <--");
+    }
 
 }
 
-class SwitchButtonListener2 implements OnClickListener  {   // Listener des Buttons
-        
-        public void onClick(View v) {
-        Log.v("DEMO","      ---> Activity2: Click on Button <--- ");
-        Intent myIntent = new Intent(v.getContext(),MainActivity.class); // Durch Übergabe dieses Intent-Objekts an startActivity():
-        v.getContext().startActivity(myIntent);                          // Erzeugung und Aktivierung einer neuen Instanz der Klasse MainActivity
-        }
-        
-}
+

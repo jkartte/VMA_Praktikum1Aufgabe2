@@ -1,42 +1,39 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Julian\\Desktop\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Julian\\Desktop\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "192,530",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "489,687"
+                        "startLines": "5,-1,-1,-1,-1",
+                        "startColumns": "4,-1,-1,-1,-1",
+                        "startOffsets": "241,-1,-1,-1,-1",
+                        "endColumns": "61,-1,-1,-1,-1",
+                        "endOffsets": "298,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "8,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "424,720",
-                        "endLines": "14,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "715,875"
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,117,168,237,306",
+                        "endColumns": "61,50,68,68,47",
+                        "endOffsets": "112,163,232,301,349"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Julian\\Desktop\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "5,6,7,3,4,2",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "241,306,371,103,172,55",
-                        "endColumns": "64,64,52,68,68,47",
-                        "endOffsets": "301,366,419,167,236,98"
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,120,185,238,307,376",
-                        "endColumns": "64,64,52,68,68,47",
-                        "endOffsets": "115,180,233,302,371,419"
+                        "startLines": "7,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "354,442",
+                        "endLines": "9,12",
+                        "endColumns": "12,12",
+                        "endOffsets": "437,509"
                     }
                 }
             ]

@@ -13,20 +13,9 @@
 		android:layout_height="60dp"
 		android:gravity="center_horizontal|center_vertical"
 	 />
-     <Button
-        android:id="@+id/switchActivity"
-        android:text="@string/Switch"
-		android:textSize="12pt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-		android:layout_marginLeft="20dp"
-		android:layout_marginRight="20dp"
-		android:gravity="center_horizontal|bottom"
-        />
-     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/smiley2"
-		android:layout_gravity="center_horizontal"
-        />
+	<EditText
+		android:id="@+id/plain_text_input"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:inputType="text"/>
 </LinearLayout>
