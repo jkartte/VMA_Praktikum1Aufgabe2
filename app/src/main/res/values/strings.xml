@@ -5,4 +5,6 @@
     <string name="activity2_title">Activity 2 - VMA TH Köln</string>
     <string name="Activity2">Eingabe für Activity 2:</string>
     <string name="Switch">GOTO ACTIVITY 2</string>
+    <string name="Eingabe">Eingabe von Activity 2</string>
+
 </resources>

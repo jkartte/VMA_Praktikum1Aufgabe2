@@ -1,15 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_thk_android.png.flat",
-        "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\drawable-mdpi\\icon_thk_android.png"
+        "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_second.xml.flat",
         "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_thk_android.png.flat",
+        "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\drawable-mdpi\\icon_thk_android.png"
     },
     {
         "merged": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",

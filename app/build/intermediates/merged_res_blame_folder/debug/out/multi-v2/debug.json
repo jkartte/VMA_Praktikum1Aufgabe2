@@ -6,18 +6,18 @@
                 {
                     "source": "C:\\Users\\Julian\\AndroidStudioProjects\\Praktikum1_Aufgabe2\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "5,-1,-1,-1,-1",
-                        "startColumns": "4,-1,-1,-1,-1",
-                        "startOffsets": "241,-1,-1,-1,-1",
-                        "endColumns": "61,-1,-1,-1,-1",
-                        "endOffsets": "298,-1,-1,-1,-1"
+                        "startLines": "-1,7,-1,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1,-1",
+                        "startOffsets": "-1,354,-1,-1,-1,-1",
+                        "endColumns": "-1,58,-1,-1,-1,-1",
+                        "endOffsets": "-1,408,-1,-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,117,168,237,306",
-                        "endColumns": "61,50,68,68,47",
-                        "endOffsets": "112,163,232,301,349"
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,117,176,227,296,365",
+                        "endColumns": "61,58,50,68,68,47",
+                        "endOffsets": "112,171,222,291,360,408"
                     }
                 },
                 {
@@ -28,12 +28,12 @@
                         "startOffsets": "-1,-1"
                     },
                     "to": {
-                        "startLines": "7,10",
+                        "startLines": "8,11",
                         "startColumns": "4,4",
-                        "startOffsets": "354,442",
-                        "endLines": "9,12",
+                        "startOffsets": "413,501",
+                        "endLines": "10,13",
                         "endColumns": "12,12",
-                        "endOffsets": "437,509"
+                        "endOffsets": "496,568"
                     }
                 }
             ]
